@@ -14,6 +14,7 @@ export interface IDropdownSelectItem {
   label?: string;
   code?: string;
   body?: () => void;
+  disabled?: boolean;
 }
 export interface IRiderDropDownSelectItem extends IDropdownSelectItem {
   assignedOrders: string[];
@@ -45,6 +46,16 @@ export interface IQueryResult<T, V> {
   refetch: (variables?: V) => void; // for useQuery
   isError: boolean;
   isSuccess: boolean;
+}
+
+export interface IPaginationVars {
+  page?: number;
+  rows?: number;
+}
+
+export interface IPaginationCommissionRateVars {
+  page?: number;
+  limit?: number;
 }
 
 export interface ITableColumn<T> {

@@ -12,7 +12,7 @@
 </div>
 
 <div align="center">
-  <h2>Enatega Multi Vendor Delivery Management System</h2>
+  <h2>SnackIt Multi Vendor Delivery Management System</h2>
   <i>A modern and customizable platform for managing online ordering and logistics across industries.</i>
  <br/>
 <br />
